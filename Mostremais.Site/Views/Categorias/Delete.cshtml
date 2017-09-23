@@ -1,0 +1,52 @@
+﻿@model Mostremais.Site.Models.ProdutoCategoriaViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+
+@if (Model != null)
+{
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>ProdutoCategoria</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Empresa
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Empresa.Nome)
+            </dd>
+
+            <dt>
+                Categoria
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+}
+else
+{ 
+    <div>
+        <p>Nenhum registro encontrado</p>
+        @Html.ActionLink("Voltar", "Index", null, null, new { @class = "btn btn-primary" })
+    </div>
+}

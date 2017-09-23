@@ -1,0 +1,49 @@
+﻿@model Mostremais.Site.Models.EmpresaViewModel
+
+@{
+    ViewBag.Title = "Deletar Empresa";
+}
+
+<h2>Deletar</h2>
+
+@if (Model != null)
+{
+    <h3>Deseja realmente deletar este registro?</h3>
+    <div>
+        <h4>EmpresaViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Alias)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Alias)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+}else{
+    <div class="text-center">
+        <p>Nenhuma empresa encontrada</p>
+        @Html.ActionLink("Voltar", "Index", null, null, new { @class="btn btn-primary"})
+    </div>
+}

@@ -1,0 +1,15 @@
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\obj\Debug\Mostremais.Application.csprojResolveAssemblyReference.cache
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\obj\Debug\Mostremais.Application.csproj.CoreCompileInputs.cache
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Application.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Application.pdb
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Domain.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Infra.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\EntityFramework.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\MySql.Data.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Domain.pdb
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Infra.pdb
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\Mostremais.Infra.dll.config
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\bin\Debug\EntityFramework.xml
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\obj\Debug\Mostremais.Application.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Application\obj\Debug\Mostremais.Application.pdb

@@ -1,0 +1,5 @@
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Domain\bin\Debug\Mostremais.Domain.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Domain\bin\Debug\Mostremais.Domain.pdb
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Domain\obj\Debug\Mostremais.Domain.csproj.CoreCompileInputs.cache
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Domain\obj\Debug\Mostremais.Domain.dll
+D:\sistemas\mostremais.desktop\Mostremais.desktop.solution\Mostremais.Domain\obj\Debug\Mostremais.Domain.pdb

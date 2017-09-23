@@ -1,0 +1,49 @@
+﻿@model List<Mostremais.Site.Models.ClienteViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (Model != null)
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Empresa
+            </th>
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empresa.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ClienteId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ClienteId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ClienteId })
+            </td>
+        </tr>
+    }
+
+    </table>
+
+}else{
+    <div>
+        <p>Nenhum cliente até o momento</p>
+        @Html.ActionLink("Voltar", "Index", null, null, new {@class="btn btn-primary"})
+    </div>
+}

@@ -1,0 +1,44 @@
+﻿@model Mostremais.Site.Models.EmpresaViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@if (Model != null)
+{
+    <div>
+        <h4>EmpresaViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Alias)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Alias)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.EmpresaId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+else
+{
+    <div class="text-center">
+        <p>Nenhuma Empresa encontrada</p>
+        @Html.ActionLink("Voltar", "Index", null, null, new { @class="btn btn-primary"})
+    </div>
+}
