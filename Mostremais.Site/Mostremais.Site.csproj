@@ -174,10 +174,11 @@
     <Compile Include="Models\ProdutoCategoriaViewModel.cs" />
     <Compile Include="Models\ProdutoSubcategoriaViewModel.cs" />
     <Compile Include="Models\ProdutoViewModel.cs" />
+    <Compile Include="Controllers\ProdutosController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\SubcategoriasController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -1010,6 +1011,17 @@
     <Content Include="Views\Categorias\Details.cshtml" />
     <Content Include="Views\Categorias\Edit.cshtml" />
     <Content Include="Views\Categorias\Index.cshtml" />
+    <Content Include="Views\Subcategorias\Create.cshtml" />
+    <Content Include="Views\Subcategorias\Delete.cshtml" />
+    <Content Include="Views\Subcategorias\Details.cshtml" />
+    <Content Include="Views\Subcategorias\Edit.cshtml" />
+    <Content Include="Views\Subcategorias\Index.cshtml" />
+    <Content Include="Views\Shared\nadaretornado.cshtml" />
+    <Content Include="Views\Produtos\Create.cshtml" />
+    <Content Include="Views\Produtos\Delete.cshtml" />
+    <Content Include="Views\Produtos\Details.cshtml" />
+    <Content Include="Views\Produtos\Edit.cshtml" />
+    <Content Include="Views\Produtos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

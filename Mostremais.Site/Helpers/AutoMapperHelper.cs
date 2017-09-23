@@ -21,6 +21,14 @@ namespace Mostremais.Site.Helpers
                 //CATEGORIA PRODUTO
                 x.CreateMap<ProdutoCategoria, ProdutoCategoriaViewModel>();
                 x.CreateMap<ProdutoCategoriaViewModel, ProdutoCategoria>();
+
+                //CATEGORIA PRODUTO
+                x.CreateMap<ProdutoSubcategoria, ProdutoSubcategoriaViewModel>();
+                x.CreateMap<ProdutoSubcategoriaViewModel, ProdutoSubcategoria>();
+
+                //PRODUTO
+                x.CreateMap<Produto, ProdutoViewModel>();
+                x.CreateMap<ProdutoViewModel, Produto>();
             });
         }
     }
