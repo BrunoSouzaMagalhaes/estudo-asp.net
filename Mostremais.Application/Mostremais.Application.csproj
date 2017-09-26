@@ -43,6 +43,7 @@
     <Compile Include="EmpresaService.cs" />
     <Compile Include="ClienteService.cs" />
     <Compile Include="ProdutoCategoriaService.cs" />
+    <Compile Include="VendaService.cs" />
     <Compile Include="ProdutoService.cs" />
     <Compile Include="ProdutoSubcategoriaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

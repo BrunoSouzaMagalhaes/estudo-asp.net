@@ -67,7 +67,11 @@ namespace Mostremais.Site.Controllers
 
             Produto Produto = Service.GetById(id.GetValueOrDefault());
             ProdutoViewModel ProdutoVM = Mapper.Map<Produto, ProdutoViewModel>(Produto);
-             
+
+            ViewBag.Categorias = ProdutoVM.SelectCategorias();
+            ViewBag.Subcategorias = ProdutoVM.SelectSubcategorias();
+            ViewBag.Empresas = ProdutoVM.SelectEmpresas();
+
             return View(ProdutoVM);
         }
  

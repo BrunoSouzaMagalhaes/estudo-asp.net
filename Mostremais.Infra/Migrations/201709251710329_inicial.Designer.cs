@@ -13,7 +13,7 @@ namespace Mostremais.Infra.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201709231136293_inicial"; }
+            get { return "201709251710329_inicial"; }
         }
         
         string IMigrationMetadata.Source

@@ -29,6 +29,10 @@ namespace Mostremais.Site.Helpers
                 //PRODUTO
                 x.CreateMap<Produto, ProdutoViewModel>();
                 x.CreateMap<ProdutoViewModel, Produto>();
+
+                //VENDA
+                x.CreateMap<Venda, VendaViewModel>();
+                x.CreateMap<VendaViewModel, Venda>();
             });
         }
     }
